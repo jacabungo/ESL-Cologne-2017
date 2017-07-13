@@ -1,0 +1,45 @@
+h1 {
+    font-size: 40px;
+    background-color: black;
+    color: aqua;
+    text-align:center;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 30px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+p {
+    font-size: 15px;
+    color: dimgray;
+    text-align: center;
+    font-family: sans-serif;
+}
+.alinhar-esquerda ul {
+    float: left;
+}
+.col-1 {
+    width: 12.5%;
+    float: left;
+    margin-bottom: 20px;
+}
+@media (max-width: 1197px) {
+    .col-1 {
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 689px) {
+    .col-1 {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+}
+
+
